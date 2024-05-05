@@ -44,7 +44,7 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 Developed by: Sabeeha Shaik
 
-RegisterNumber: 212223230176
+RegisterNumber: 212223230176*/
 ```
 module dflipflop(D,Clock,reset,Q);
 input D,reset,Clock;
@@ -56,7 +56,7 @@ else
 Q <= D;
 endmodule
 ```
-*/
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
